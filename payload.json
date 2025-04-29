@@ -11,7 +11,95 @@
             },
             "lambda": {
                 "runtime": "nodejs18.x",
-                "payload": {},
+                "payload": {
+                    "json": {
+                    "body": {
+                        "companyName": "ACME",
+                        "id": "24e99765-8583-4be5-87ae-489c86642964",
+                        "event": "pre-employee.moved",
+                        "date": "2019-06-19T23:48:46.952Z",
+                        "data": {
+                            "job": {
+                                "id": 19139,
+                                "code": "code-19139",
+                                "name": "Developer",
+                                "department": {
+                                    "id": 45,
+                                    "code": "45124",
+                                    "name": "App Development",
+                                    "similarity": "technology"
+                                },
+                                "role": {
+                                    "id": 56,
+                                    "code": "123456",
+                                    "name": "Developer",
+                                    "similarity": "developer"
+                                },
+                                "branch": {
+                                    "id": 1895,
+                                    "code": "1234",
+                                    "name": "GUPY > BRANCH 1"
+                                },
+                                "customFields": [
+                                    {
+                                        "id": "7bd3b8ba-180b-4ae2-b397-240f8fb249c6",
+                                        "title": "Pergunta",
+                                        "value": "Resposta"
+                                    },
+                                    {
+                                        "id": "8cd3b8ba-180b-4ae2-b397-240f8fb249c6",
+                                        "title": "Pergunta 2",
+                                        "value": "Resposta 2"
+                                    }
+                                ]
+                            },
+                            "application": {
+                                "id": 2937132,
+                                "score": 71.570454783086,
+                                "preHiringInformation": {
+                                    "key1": "value1",
+                                    "key2": "value2"
+                                },
+                                "tags": [
+                                    "tag1"
+                                ],
+                                "currentStep": {
+                                    "id": 86547,
+                                    "name": "Pré-contratação"
+                                }
+                            },
+                            "user": {
+                                "id": 1215163,
+                                "name": "Janaina Silva",
+                                "email": "janaina.silva@email.com.br"
+                            },
+                            "candidate": {
+                                "id": 1999450,
+                                "name": "John",
+                                "lastName": "Doe",
+                                "email": "john.doe177@gmail.com",
+                                "identificationDocument": "25272626207",
+                                "countryOfOrigin": "Brasil",
+                                "birthdate": "1994-11-16",
+                                "addressZipCode": "01414-905",
+                                "addressStreet": "Rua Haddock Lobo",
+                                "addressNumber": "595 - 10º andar",
+                                "addressCity": "São Paulo",
+                                "addressState": "São Paulo",
+                                "addressStateShortName": "SP",
+                                "addressCountry": "Brasil",
+                                "addressCountryShortName": "BR",
+                                "mobileNumber": "+5511999990000",
+                                "phoneNumber": "+551130000000",
+                                "schooling": "technical_course",
+                                "schoolingStatus": "complete",
+                                "disabilities": false,
+                                "gender": "Male"
+                            }
+                        }
+                    }
+                }
+                },
                 "environmentVariables": {}
             }
         }

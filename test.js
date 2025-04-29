@@ -3,7 +3,7 @@ const payload = require('./payload.json');
 
 // Filtra a configuração que você deseja usar, por exemplo, pela propriedade "name"
 const config = payload.configurations.find(c =>
-  c.name.startsWith("f0WBzzfksHIdHcmOnboardingPreAdmissionSaveAndFinish")
+  c.name.startsWith("1xwPdjobj17IPlatformConectorInvoke")
 );
 
 if (!config) {
