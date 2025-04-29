@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "1xwPdjobj17IPlatformConectorInvoke:index.handler (nodejs18.x)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "1xwPdjobj17IPlatformConectorInvoke",
+                "lambdaHandler": "index.handler"
+            },
+            "lambda": {
+                "runtime": "nodejs18.x",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        }
+    ]
+}

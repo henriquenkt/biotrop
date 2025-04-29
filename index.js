@@ -5,6 +5,7 @@
  * Nome do serviço : conector
  * Nome do tenant : biotropcombr
  **/
+
 const { lambdaEvent, lambdaResponse, PlatformApi } = require("@seniorsistemas/fsw-aws-lambda");
 
 exports.handler = async (event) => {
