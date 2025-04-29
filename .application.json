@@ -1,0 +1,10 @@
+{
+    "DeploymentMethod": "lambda",
+    "Functions": {
+        "1xwPdjobj17IPlatformConectorInvoke": {
+            "PhysicalId": {
+                "us-east-1": "1xwPdjobj17IPlatformConectorInvoke"
+            }
+        }
+    }
+}
